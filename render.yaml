@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: telesehat
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:server
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: AGORA_APP_ID
+        sync: false
