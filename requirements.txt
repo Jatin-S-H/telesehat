@@ -1,0 +1,8 @@
+dash==2.15.0
+dash-bootstrap-components==1.5.0
+plotly==5.18.0
+pandas==2.1.4
+numpy==1.24.3
+google-generativeai==0.3.2
+Pillow==10.1.0
+gunicorn==21.2.0
